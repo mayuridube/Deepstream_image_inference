@@ -5,9 +5,6 @@ __pycache__/
 
 # C extensions
 *.so
-models/*.engine
-
-detections/
 
 # Distribution / packaging
 .Python
@@ -130,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+detections/
+models/*.engine
