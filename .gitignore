@@ -5,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+*.engine
+
+detections/
 
 # Distribution / packaging
 .Python
