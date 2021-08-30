@@ -6,9 +6,9 @@
 - Gst-python<br>
 
 <h3> Usage:</h3>
-<h6>$ cd deepstream_analytics_plugin <br>
-  $ python3 deepstream_nvdsanalytics.py [uri1] [uri2] ... [uriN]<br>
+<h6>
+  $ python3 deepstream_image_inference.py [uri1] [uri2] ... [uriN]<br>
 e.g.<br>
-  $ python3 deepstream_nvdsanalytics.py file:///path/to/.jpg/file<br>
-  $ python3 deepstream_nvdsanalytics.py file:///path/to/.jpg/file file:///path/to/.jpg/file<br> </h6>
+  $ python3 deepstream_image_inference.py ./sample_720p.jpg<br>
+  $ python3 deepstream_image_inference.py ./sample_720p.jpg ./sample_720p.jpg <br> </h6>
   

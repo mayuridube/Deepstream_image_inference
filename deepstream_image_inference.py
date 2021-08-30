@@ -23,7 +23,7 @@
 ################################################################################
 
 # USAGE : python3 <script_name> <jpg filepath>
-# ex. python3 image_inference.py ./sample_720p.jpg
+# ex. python3 deepstream_image_inference.py ./sample_720p.jpg
 
 
 from os import path
@@ -104,6 +104,8 @@ def tiler_sink_pad_buffer_probe(pad, info, u_data):
                 obj_meta = pyds.NvDsObjectMeta.cast(l_obj.data)
             except StopIteration:
                 break
+            print("*******************************")
+            print("Source Id :",src_id)
             print("Class Id :",obj_meta.class_id)
             print("Confidence :",obj_meta.confidence)
             print("Co-rodinates top:",obj_meta.rect_params.top)
